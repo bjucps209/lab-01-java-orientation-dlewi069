@@ -3,7 +3,7 @@ import java.util.*;
 public class Guess {
     public static void main(String[] args) {
         int secretNum = (int)(Math.random() * 11);
-        int numGuesses = 0;
+        int numGuesses = 1;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your guess: ");
         int guess = scanner.nextInt();
